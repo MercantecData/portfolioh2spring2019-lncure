@@ -1,22 +1,16 @@
 ﻿using System;
 
-namespace Overloading_mathclass
+namespace Udfordring
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(math.Add("hjælp ","mig"));
-            Console.ReadKey();
-
-        }
-
         public class math
         {
+
             //------------------------------------------------------
-            public static int Add (int a, int b)
+            public static int Add(int a, int b)
             {
-                return a + b; 
+                return a + b;
             }
             public static int Subtract(int a, int b)
             {
@@ -51,10 +45,26 @@ namespace Overloading_mathclass
             }
 
             //--------------------------------------------------------
-
             public static string Add(string a, string b)
             {
-                return a + b;
+                int flam;
+                int ingo;
+
+                Int32.TryParse(a, out flam);
+                Int32.TryParse(b, out ingo);
+
+                return (flam + ingo).ToString();
+            }
+            public delegate int DelegateTest(int a, int b);
+            static void Main(string[] args)
+            {
+                Console.WriteLine(math.Add("4", "9"));
+                
+                Console.ReadKey();
+
+                DelegateTest a1 = Add;
+
+                a1(14, 32);
             }
         }
     }
