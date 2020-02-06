@@ -11,35 +11,25 @@ namespace Delegates
 
         // - Lav en delegate som returnerer void og tager imod ingen parametre. Kald denne.
         public delegate void Delegayte();
-        static Delegayte a = Funktion;
+        static Delegayte a = funktion;
 
-        public static void Funktion()
+        public static void funktion()
         {
             Console.WriteLine("yo");
         }
         //------------------------------------------------------
         //- Lav en anden delegate som returnerer float og tager imod ingen parametre. Kald denne.
         public delegate float Delegayte1();
-        static Delegayte1 b = Funktion1;
+        static Delegayte1 b = funktion1;
 
-        public static float Funktion1()
+        public static float funktion1()
         {
             float abc = 1.5f + 4.0f;
             Console.WriteLine(abc);
             return abc;
         }
+
         //------------------------------------------------------
         //- Lav en anden delegate som returnerer void og tager imod 3 parametere.Kald denne.
-        public delegate void Delegayte2(string q, string w, string e);
-        static Delegayte2 c = Funktion2();
-
-        public static void Funktion2(string q, string w, string e)
-        {
-            q = "skinkeost";
-            w = "osteSkinke";
-            e = "SsktienkSekinke";
-
-            Console.WriteLine(q + w + e);
-        }
     }
 }

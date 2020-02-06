@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\admin\Desktop\Objektorienteret programmering\portfolioh2spring2019-lncure\Inheritance\Computer Inheritance.cs" Link="Computer Inheritance.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VictorMath">
+      <HintPath>..\..\VictorMath\VictorMath\bin\Debug\netcoreapp3.1\VictorMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

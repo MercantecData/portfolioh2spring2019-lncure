@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\admin\Desktop\Objektorienteret programmering\portfolioh2spring2019-lncure\Dictionaries\04-02-2020 OPG 1.cs" Link="04-02-2020 OPG 1.cs" />
+    <Compile Include="C:\Users\admin\Desktop\Objektorienteret programmering\portfolioh2spring2019-lncure\Dictionaries\04-02-2020 OPG 3.cs" Link="04-02-2020 OPG 3.cs" />
+  </ItemGroup>
+
+</Project>

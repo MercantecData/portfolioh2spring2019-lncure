@@ -147,7 +147,7 @@ namespace Inheritance
             }
 
             // - Lav et interface med 3 metoder i. Implementer dette interface i 2 forskellige classes.
-            interface newInterface 
+            interface newInterface
             {
                 void testing1();
                 void testing2();
@@ -206,7 +206,7 @@ namespace Inheritance
                 public fuckingHelp()
                 {
                     persons.Add(new Person("Machmud", 69, true));
-                    Persons.Add(new Person("Logan", 18, true));                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                    Persons.Add(new Person("Logan", 18, true));
                     Persons.Add(new Person("Mads", 13, false));
                     Persons.Add(new Person("Mark", 69, true));
                     Persons.Add(new Person("Nikolaj", 34, true));
@@ -214,11 +214,9 @@ namespace Inheritance
                     Persons.Add(new Person("Pinar", 17, true));
                     Persons.Add(new Person("Spankbank", 88, false));
                     Persons.Add(new Person("johanne", 56, false));
-                    Persons.Add(new Person("jay", 89, true));   
+                    Persons.Add(new Person("jay", 89, true));
                 }
             }
-
-
         }
     }
 }

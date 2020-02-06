@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Lambda_Expression</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\admin\Desktop\Objektorienteret programmering\portfolioh2spring2019-lncure\Lambda Expressions\05-02-2020 Lambda.cs" Link="05-02-2020 Lambda.cs" />
+  </ItemGroup>
+
+</Project>
