@@ -19,3 +19,6 @@ så den venter jeg med at færdiggøre til lidt senere tænker jeg.
 
 Efter at have læst beskeden som Mads sendte mig på Github, der prøvede jeg at tilføje hele projekter ind i min
 repository til Github. Ved ikke om det virkede som forventet, men det burde helst gerne være der.
+
+Jeg gik i gang med opsummeringen og fik den lavet på delvis kort tid. Derefter valgte jeg at bruge resten af min
+tid på libary opgaven som heller tog så meget tid.
