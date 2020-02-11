@@ -1,0 +1,17 @@
+Abstract classes can be explained like blueprints, it's a class that's
+incomplete, showing only the functionality of the class whilst hiding internal details.
+
+Some small details about Abstract classes is that they cannot be instantiated and they have no body
+to be utilized either. You could say that these Abstract classes are quite lacking.
+
+Abstract classes can be defined like so:
+
+Public abstract void test();
+
+The class is abstract once defined with the 'Abstract' Modifier.
+
+Abstract classes are primarily used for inheritances of different elements.
+This is primarily because of safety reasons.
+
+Couldn't find much else regarding Abstract classes, it just goes to show that if you require
+an effective method of inheriting classes, then abstract classes is the way to go.

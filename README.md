@@ -22,3 +22,11 @@ repository til Github. Ved ikke om det virkede som forventet, men det burde hels
 
 Jeg gik i gang med opsummeringen og fik den lavet på delvis kort tid. Derefter valgte jeg at bruge resten af min
 tid på libary opgaven som heller tog så meget tid.
+
+Kiggede lidt tilbage på abstract classes opgaven og fik den ændret da jeg lavede den forkert.
+efter det fik jeg også færdiggjort multithreading med tasks uden de store problemer.
+
+Til sidst var der kun en opgave tilbage, det var at skrive om de abstract classes.
+
+Jeg gjorde hvad jeg kunne da jeg skrev om abstract classes, jeg vidste ikke så meget, men det er hvad det er.
+

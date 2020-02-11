@@ -104,7 +104,15 @@ namespace Abstract_and_Interface
                 Person persons = obj as Person;
                 if (persons != null)
                 {
-                    return this.age.CompareTo(persons.age);
+                    var result = this.name.CompareTo(persons.name);
+                    if (result != 0) return result;
+
+                    result = this.age.CompareTo(persons.age);
+                    if (result != 0) return result;
+
+                    result = this.gender.CompareTo(persons.gender);
+                    result = result * -1;
+                    return result;
                 }
                 else
                 {
@@ -119,16 +127,18 @@ namespace Abstract_and_Interface
             List<Person> Persons = new List<Person>();
             public machmudsLair()
             {
-                Persons.Add(new Person("Machmud", 69, true));
+                Persons.Add(new Person("Machmudine", 69, true));
                 Persons.Add(new Person("Logan", 18, true));
                 Persons.Add(new Person("Mads", 13, false));
                 Persons.Add(new Person("Mark", 69, true));
                 Persons.Add(new Person("Nikolaj", 34, true));
-                Persons.Add(new Person("yashar", 40, true));
+                Persons.Add(new Person("yashar", 40, true));    
                 Persons.Add(new Person("Pinar", 17, true));
                 Persons.Add(new Person("Spankbank", 88, false));
                 Persons.Add(new Person("johanne", 56, false));
                 Persons.Add(new Person("jay", 89, true));
+
+                Persons.Sort();
             }
         }
         // - Ændre dit program til at sortere alfabetisk. Hvis 2 personer hedder det samme, sorter efter alder. Hvis de så har samme, sorter kvinder før mænd. Brug stadig IComparable.
